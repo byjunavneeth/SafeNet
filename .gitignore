@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime sensor history (keep the example file in version control)
+data.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage / build output
+coverage/
+dist/
+build/

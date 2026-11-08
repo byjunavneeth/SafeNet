@@ -1,0 +1,26 @@
+{
+  "name": "safenet-child-safety-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js",
+    "simulate": "node --env-file-if-exists=.env simulator.js"
+  },
+  "engines": {
+    "node": ">=22.9.0"
+  },
+  "keywords": [
+    "child-safety",
+    "monitoring",
+    "express",
+    "groq",
+    "simulation"
+  ],
+  "license": "UNLICENSED",
+  "description": "A prototype child-safety monitoring dashboard with a room-layout editor, JSON sensor data, and AI-generated status summaries.",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
